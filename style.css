@@ -1,0 +1,214 @@
+body {
+  background-color: white;
+  font-family: -apple -apple-system, BlinkMacSystemFont, 'Avenir','SF Pro Text', 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 375px;
+  height:667px;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  background-color: #258C74;
+  width: 375px;
+  height: 310;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  height: 10px;
+  background-color: #258C74;
+  padding-bottom: 5px;
+}
+
+header{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #258C74;
+}
+
+.headergrid{
+  display: grid;
+  grid-template-columns: 10% 90%;
+  border-top:5px solid #258C74;
+}
+
+.station{
+  padding-top: 5px;
+  padding-right: 40px;
+  color: white;
+}
+
+.BackArrow{
+  paddng-top: 10px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  font-family: Avenir;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+h2{
+  margin: 0%;
+  padding: 0%;
+}
+.map {
+  background-image: url("Images/Map.Background.png");
+  background-position: center;
+  background-size: contain;
+  margin-top: -10px;
+  width: 100%;
+  height: 120%;
+}
+
+.wayfinding {
+padding-top: 40px;
+padding-left: 35px;
+}
+
+.gridlabel {
+  display: grid;
+  height: 45px;
+  grid-template-columns: 80% 0%;
+  border-bottom: 2px solid #81F6A9 ;
+  background-color: white;
+}
+
+.bus-info {
+  font-family: SF Pro Text;
+  font-weight: 400;
+  color: black;
+  flex: 100%;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #258C74 ;
+}
+.timecolumn{
+  font-weight: 400;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.busline-information{
+  height:300px;
+}
+
+.grid{
+  height: 257px;
+  overflow-y: scroll;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 4fr 6fr 5fr 6fr 1fr;
+  grid-auto-rows: 45px;
+  align-items: stretch;
+  padding-top: 2px;
+}
+
+.grid > .square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.destination {
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #7B7B81;
+  border-bottom: 1px solid #7B7B81;
+}
+.direction {
+  padding-top: 12px;
+  padding-left:20px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #7B7B81;
+  border-bottom: 1px solid #7B7B81;
+}
+
+.time {
+  padding-top: 12px;
+  padding-left: 22px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #7B7B81;
+  border-bottom: 1px solid #7B7B81;
+}
+
+.destination2 {
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: medium;
+  color: red;
+  border-bottom: 1px solid #7B7B81;
+}
+.direction2 {
+  padding-top: 12px;
+  padding-left:25px;
+  font-size: 14px;
+  font-weight: medium;
+  color: red;
+  border-bottom: 1px solid #7B7B81;
+}
+
+.time2 {
+  padding-top: 12px;
+  padding-left: 22px;
+  font-size: 14px;
+  font-weight: medium;
+  color: red;
+  border-bottom: 1px solid grey;
+}
+
+.destination3 {
+  padding-top: 12px;
+  font-size: 14px;
+  color: #FFC700;
+  font-weight: medium;
+  border-bottom: 1px solid #7B7B81;
+}
+.direction3 {
+  padding-top: 12px;
+  padding-left:45px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #FFC700;
+  border-bottom: 1px solid #7B7B81;
+}
+
+.time3 {
+  padding-top: 12px;
+  padding-left: 22px;
+  font-size: 14px;
+  font-weight: medium;
+  color: #FFC700;
+  border-bottom: 1px solid #7B7B81;
+}
+.arrow {
+  padding-top: 8px;
+  padding-left:5px;
+}
+
+.square{
+  height: 38px;
+  width: 38px;
+  background-color: #81F6A9;
+  border-radius: 10%;
+  font-size: 14px;
+  font-family: Avenir;
+  font-weight: bold;
+  border: 1px solid #81F6A9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
